@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kaojino Wallet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+        }
+        #logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="g3x24-logo.png" alt="G3X24 Logo" />
+    <h1>🪐 Kaojino Wallet</h1>
+
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="status"></p>
+    <p id="balance"></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
